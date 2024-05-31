@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container" id="bmiFormContainer">
+    <div class="container container_mob" id="bmiFormContainer">
         <h1>BMI Calculator</h1>
         <form id="bmiForm" onsubmit="return false;">
             <label for="age">Age:</label>
@@ -30,7 +30,7 @@
         </form>
     </div>
 
-    <div class="container hidden" id="resultContainer">
+    <div class="container container_result hidden" id="resultContainer">
         <h1>BMI Result</h1>
         <div id="result"></div>
         <button class="result-button" onclick="goBack()">Go Back</button>

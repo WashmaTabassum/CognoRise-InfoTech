@@ -25,14 +25,15 @@ label{
     color: rgb(77, 81, 81);
 }
 .container {
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background: rgba(255, 255, 255, 0.4); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 700px;
     backdrop-filter: blur(20px);
+    
 }
 
 .hidden {
@@ -66,7 +67,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: rgb(201, 115, 144);
+    background-color: rgb(250, 125, 165);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -88,6 +89,7 @@ button:hover {
     font-weight: SemiBold 600;
     font-style: normal;
     color: rgb(77, 81, 81);
+    
 }
 
 .result-button{
@@ -106,9 +108,22 @@ button:hover {
 
 /* Small devices (phones, less than 600px) */
 @media (max-width: 599px) {
-    .container {
+
+    body{
+        background-image: url('assets/bg_mob.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
+    }
+    .container_mob {
         width: 80%;
         padding: 15px;
+        background: transparent;
+    }
+    .container_result {
+        width: 70%;
+        padding: 15px;
+        background: transparent;
     }
 
     button {
@@ -119,13 +134,32 @@ button:hover {
     input {
         padding: 8px;
     }
+    h1{
+        color: rgb(238 239 235);
+    }
+    label{
+        color: rgb(255 255 254);
+    }
+    button{
+        background-color: rgb(221, 90, 83);
+    }
+    #result {
+        font-size: 16px;
+        color: rgba(255, 255, 255);
+    }
 }
-
 /* Medium devices (tablets, 600px and up) */
 @media (min-width: 600px) and (max-width: 991px) {
+    body{
+        background-image: url('assets/bg_mob.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
+    }
     .container {
-        width: 60%;
+        width: 80%;
         padding: 20px;
+        background: transparent;
     }
 
     button {
@@ -134,6 +168,19 @@ button:hover {
 
     input {
         padding: 10px;
+    }
+    h1{
+        color: rgb(238 239 235);
+    }
+    label{
+        color: rgb(255 255 254);
+    }
+    button{
+        background-color: rgb(221, 90, 83);
+    }
+    #result {
+        font-size: 20px;
+        color: rgba(255, 255, 255);
     }
 }
 
