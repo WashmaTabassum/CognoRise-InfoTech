@@ -110,7 +110,7 @@ button:hover {
 @media (max-width: 599px) {
 
     body{
-        background-image: url('assets/bg_mob.jpg');
+        background-image: url('assets/bg1.jpg');
         background-size: cover;
         /* background-position: center center; */
         background-attachment: fixed;
