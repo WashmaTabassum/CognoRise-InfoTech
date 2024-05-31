@@ -113,7 +113,7 @@ button:hover {
         background-image: url('assets/bg_mob.jpg');
         background-size: cover;
         background-position: center center;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .container_mob {
         width: 80%;
@@ -154,7 +154,7 @@ button:hover {
         background-image: url('assets/bg_mob.jpg');
         background-size: cover;
         background-position: center center;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .container {
         width: 80%;
